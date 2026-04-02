@@ -1,8 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-const allPosts = Astro.glob('./*.md');
+const allPosts = await Astro.glob('./*.md');
 
-// Sort by date descending
 const posts = allPosts
   .map(p => ({
     url: p.url,
