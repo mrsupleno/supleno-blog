@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://supleno.com/sitemap-index.xml

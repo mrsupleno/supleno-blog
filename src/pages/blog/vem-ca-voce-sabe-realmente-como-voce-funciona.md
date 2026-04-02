@@ -1,5 +1,5 @@
 ---
-title: "Vem cá&#8230; Você sabe realmente como você funciona?"
+title: "Vem cá... Você sabe realmente como você funciona?"
 slug: "vem-ca-voce-sabe-realmente-como-voce-funciona"
 date: "2015-04-06"
 author: "Maurício Supleno"

@@ -1,9 +1,9 @@
 ---
-title: "TEPT &#8211; Em busca da cura"
+title: "TEPT - Em busca da cura"
 slug: "tept-em-busca-da-cura"
 date: "2014-01-06"
 author: "Maurício Supleno"
-description: "Caros Psicólogos, Hipnólogos e Psicoterapeutas. O Comitê de Revisão das Diretrizes da Organização Mundial de Saúde \(OMS\) aprovou formalmente a recomendação do"
+description: "Caros Psicólogos, Hipnólogos e Psicoterapeutas. O Comitê de Revisão das Diretrizes da OMS aprovou formalmente a recomendação do"
 canonicalUrl: "https://supleno.com/blog/tept-em-busca-da-cura/"
 ---
 

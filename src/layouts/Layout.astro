@@ -14,6 +14,19 @@ const { title, description = "Desenvolvimento humano, PNL, Hipnose e Terapia - S
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
   {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={`${title} | Supleno`} />
+  <meta property="og:description" content={description} />
+  <meta property="og:site_name" content="Supleno" />
+  {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={`${title} | Supleno`} />
+  <meta name="twitter:description" content={description} />
+  
   <title>{title} | Supleno</title>
   <style>
     :root {
@@ -78,8 +91,7 @@ const { title, description = "Desenvolvimento humano, PNL, Hipnose e Terapia - S
       <a href="/" class="logo">Supleno</a>
       <nav>
         <a href="/">Início</a>
-        <a href="/blog">Blog</a>
-        <a href="https://supleno.com">Site Principal</a>
+        <a href="https://supleno.com" target="_blank">Site Principal ↗</a>
       </nav>
     </div>
   </header>
