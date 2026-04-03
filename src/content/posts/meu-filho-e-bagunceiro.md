@@ -6,6 +6,9 @@ author: "Sandra Nakkoud"
 description: "Por: Sandra Nakkoud Ruiz Tenho visto em atendimentos terapêuticos, diversos casos de traumas causados por crenças instaladas ainda na fase da infância, e que ai"
 canonicalUrl: "https://blog.supleno.com/meu-filho-e-bagunceiro/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -49,4 +52,6 @@ _Saudações a todas as mamães e papais e obrigada por ler este artigo\!_
     </div>
   </div>
 </div>
+</div>
+
 </div>

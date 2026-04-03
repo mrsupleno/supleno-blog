@@ -6,6 +6,9 @@ author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Desde muito pequenos aprendemos agir de acordo com nosso histórico de vida, nosso modelo de mundo, sem filtrarmos nada, e tais comportam"
 canonicalUrl: "https://blog.supleno.com/descubra-3-motivos-para-salvar-sua-crianca/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -49,4 +52,6 @@ _Sandra Nakkoud Ruiz._
     </div>
   </div>
 </div>
+</div>
+
 </div>

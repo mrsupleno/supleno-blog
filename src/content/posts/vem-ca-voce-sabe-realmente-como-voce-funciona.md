@@ -6,6 +6,9 @@ author: "Maurício Supleno"
 description: "Comecei a falar somente aos 5 anos, meus pais preocupados, com o terceiro filho do casal que não falava ainda, pois os dois mais velhos já falavam no segundo an"
 canonicalUrl: "https://blog.supleno.com/vem-ca-voce-sabe-realmente-como-voce-funciona/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -39,4 +42,6 @@ Enfim, hoje vivo a PNL e vivo de PNL, ajudando pessoas com método terapêutico 
     </div>
   </div>
 </div>
+</div>
+
 </div>

@@ -6,6 +6,9 @@ author: "Maurício Supleno"
 description: "A Cliente Resistente ao processo de Hipnose, como resolver. Tive uma cliente nova a poucos dias atrás, que ao preencher a ficha chegou na recepção e falou para "
 canonicalUrl: "https://blog.supleno.com/dialogos-terapeuticos-de-atendimento-05-2014/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -83,4 +86,6 @@ Ela então fecha os olhos respira bem profundo ouvindo o barulho da máquina e u
     </div>
   </div>
 </div>
+</div>
+
 </div>

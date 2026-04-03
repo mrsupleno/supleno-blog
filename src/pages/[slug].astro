@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const fm = post.data;
+
+function formatDate(dateStr: string) {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-');
+  const months = ['janeiro','fevereiro','março','abril','maio','junho',
+                  'julho','agosto','setembro','outubro','novembro','dezembro'];
+  return `${parseInt(d)} de ${months[parseInt(m)-1]} de ${y}`;
+}
+
+const formattedDate = formatDate(fm.date);
+const initials = fm.author ? fm.author.split(' ').map((n: string) => n[0]).slice(0,2).join('') : '';
+---
+
+<Layout title={fm.title} description={fm.description} date={fm.date} author={fm.author} canonicalUrl={fm.canonicalUrl}>
+  <div class="article-header">
+    <div class="article-category">Desenvolvimento Humano</div>
+    <h1 class="article-title">{fm.title}</h1>
+    <div class="article-meta">
+      {fm.author && <span class="author">{fm.author}</span>}
+      {fm.author && fm.date && <span class="sep">·</span>}
+      {fm.date && <span class="date">{formattedDate}</span>}
+    </div>
+  </div>
+
+  <div class="article-body">
+    <Content />
+  </div>
+
+  {fm.author && (
+    <div class="author-box">
+      <div class="author-card">
+        <div class="author-avatar">{initials}</div>
+        <div class="author-info">
+          <h4>{fm.author}</h4>
+          <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistêmico.</p>
+        </div>
+      </div>
+    </div>
+  )}
+</Layout>

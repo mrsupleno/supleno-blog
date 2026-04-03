@@ -6,6 +6,9 @@ author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Sempre que ministro a introdução do curso Practitioner em PNL, faço uma reflexão entre os alunos perguntando: Quem é a pessoa mais impor"
 canonicalUrl: "https://blog.supleno.com/quem-e-a-pessoa-mais-importante-para-voce-agora/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -37,4 +40,6 @@ Pense e reflita: perceba, valorize onde você estiver, olhe ao seu redor, veja q
     </div>
   </div>
 </div>
+</div>
+
 </div>

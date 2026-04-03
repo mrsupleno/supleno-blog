@@ -6,6 +6,9 @@ author: "Maurício Supleno"
 description: "Caros Psicólogos, Hipnólogos e Psicoterapeutas. O Comitê de Revisão das Diretrizes da OMS aprovou formalmente a recomendação do"
 canonicalUrl: "https://blog.supleno.com/tept-em-busca-da-cura/"
 ---
+
+<div class="article-body">
+
 <div class="article-content">
 
 <div class="article-header">
@@ -48,4 +51,6 @@ http://psychiatryonline.org/content.aspx?bookid=28&sectionid=1670530
     </div>
   </div>
 </div>
+</div>
+
 </div>
