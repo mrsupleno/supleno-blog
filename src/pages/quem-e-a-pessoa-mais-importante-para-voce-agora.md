@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Quem é a pessoa mais importante para você agora?"
 slug: "quem-e-a-pessoa-mais-importante-para-voce-agora"
 date: "2015-04-09"
@@ -7,6 +6,16 @@ author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Sempre que ministro a introdução do curso Practitioner em PNL, faço uma reflexão entre os alunos perguntando: Quem é a pessoa mais impor"
 canonicalUrl: "https://blog.supleno.com/quem-e-a-pessoa-mais-importante-para-voce-agora/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Quem é a pessoa mais importante para você agora?</h1>
+  <div class="article-meta">
+    <span class="author">Sandra Nakkoud</span><span class="sep">·</span><span class="date">9 de abril de 2015</span>
+  </div>
+</div>
+
 
 Por Sandra Nakkoud Ruiz
 
@@ -17,3 +26,15 @@ E, naquele breve momento eu fui a pessoa mais importante para aquela jovem moça
 ![EFT tapping points](http://supleno.com/wp-content/uploads/2015/04/efthand.jpg?w=300)Para quem quiser aprender ou saber um poucomais das técnicas que apliquei, teremos uma formação do Tapping aqui no _**Supleno dia 12-04-2015 às 8:00h**_ para maiores informações acesse supleno.com ou entre em contato com nossa equipe no _**\(27\) 3061-3252.**_
 
 Pense e reflita: perceba, valorize onde você estiver, olhe ao seu redor, veja quem está com você, nunca se sabe quando precisaremos de ajuda ou quando vão precisar da gente. Quantas vezes você já foi a pessoa mais importante na vida de alguém?
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">SN</div>
+    <div class="author-info">
+      <h4>Sandra Nakkoud</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

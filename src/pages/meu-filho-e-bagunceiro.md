@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Meu filho É BAGUNCEIRO?"
 slug: "meu-filho-e-bagunceiro"
 date: "2015-02-26"
@@ -7,6 +6,16 @@ author: "Sandra Nakkoud"
 description: "Por: Sandra Nakkoud Ruiz Tenho visto em atendimentos terapêuticos, diversos casos de traumas causados por crenças instaladas ainda na fase da infância, e que ai"
 canonicalUrl: "https://blog.supleno.com/meu-filho-e-bagunceiro/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Meu filho É BAGUNCEIRO?</h1>
+  <div class="article-meta">
+    <span class="author">Sandra Nakkoud</span><span class="sep">·</span><span class="date">26 de fevereiro de 2015</span>
+  </div>
+</div>
+
 
 Por: Sandra Nakkoud Ruiz[![HYPERACTIVE KIDS](https://mrsucesso.files.wordpress.com/2015/02/hyperactive-kids.jpg?w=300)](https://mrsucesso.files.wordpress.com/2015/02/hyperactive-kids.jpg)
 
@@ -29,3 +38,15 @@ De uma forma bem lúdica e dinâmica, usamos além de metáforas, histórias e v
 Desta forma garantimos aos pais que eles não estão sonhos na orientação emocional de seus filhos, e que os pequenos tem sim um “manual de instrução e funcionamento” basta saber encontrar dentro de cada criança\!
 
 _Saudações a todas as mamães e papais e obrigada por ler este artigo\!_
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">SN</div>
+    <div class="author-info">
+      <h4>Sandra Nakkoud</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

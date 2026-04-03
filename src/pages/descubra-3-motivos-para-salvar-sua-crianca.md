@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Descubra 3 motivos para salvar sua criança"
 slug: "descubra-3-motivos-para-salvar-sua-crianca"
 date: "2015-04-16"
@@ -7,6 +6,16 @@ author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Desde muito pequenos aprendemos agir de acordo com nosso histórico de vida, nosso modelo de mundo, sem filtrarmos nada, e tais comportam"
 canonicalUrl: "https://blog.supleno.com/descubra-3-motivos-para-salvar-sua-crianca/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Descubra 3 motivos para salvar sua criança</h1>
+  <div class="article-meta">
+    <span class="author">Sandra Nakkoud</span><span class="sep">·</span><span class="date">16 de abril de 2015</span>
+  </div>
+</div>
+
 
 ###### _Por Sandra Nakkoud Ruiz  
 _
@@ -29,3 +38,15 @@ Todos esses comportamentos acima poderiam ser evitados lá atrás.![salvar-psico
 Com carinho e gratidão,
 
 _Sandra Nakkoud Ruiz._
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">SN</div>
+    <div class="author-info">
+      <h4>Sandra Nakkoud</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

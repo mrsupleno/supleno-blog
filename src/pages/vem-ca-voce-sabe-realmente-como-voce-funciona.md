@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Vem cá... Você sabe realmente como você funciona?"
 slug: "vem-ca-voce-sabe-realmente-como-voce-funciona"
 date: "2015-04-06"
@@ -7,6 +6,16 @@ author: "Maurício Supleno"
 description: "Comecei a falar somente aos 5 anos, meus pais preocupados, com o terceiro filho do casal que não falava ainda, pois os dois mais velhos já falavam no segundo an"
 canonicalUrl: "https://blog.supleno.com/vem-ca-voce-sabe-realmente-como-voce-funciona/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Vem cá... Você sabe realmente como você funciona?</h1>
+  <div class="article-meta">
+    <span class="author">Maurício Supleno</span><span class="sep">·</span><span class="date">6 de abril de 2015</span>
+  </div>
+</div>
+
 
 Comecei a falar somente aos 5 anos, meus pais preocupados, com o terceiro filho do casal que não falava ainda, pois os dois mais velhos já falavam no segundo ano do nascimento, resolveram me levar ao médico, chegando no consultório, no dia da consulta após meus pais preencherem ficha, pagarem a consulta, meu foi ao carro buscar alguns exames, e minha mãe se distraia conversando com uma paciente, dei a volta, fui até a recepcionista que tinha em sua mesa um estranho objeto, e perguntei “Oi moça, como se chama isso?” indicando o apontador de lápis de mesa com bojo. Ela me respondeu ![apontador lapis bojo](http://supleno.com/wp-content/uploads/2015/04/apontador-lapis-bojo.jpg?w=1024)prontamente, e chamou minha mãe dizendo “Dona Ada, a fala deste menino funciona corretamente\!” minha mãe chorou de alegria, a recepcionista avisou o médico que me atendeu ali na recepção mesmo e dispensou da consulta regular. No caminho de casa, eu já falando normalmente com meus pais quando eles finalmente perguntaram o porque de eu não falar, e eu disse que sim eu já falava, mas não falava com adultos, somente com crianças. Quando tinha adultos por perto eu só olhava\!
 
@@ -19,3 +28,15 @@ Através de ter melhores escolhas, aprender a lidar com meu inconsciente, venho 
 [![Foto do Perfil Facebook](http://supleno.com/wp-content/uploads/2015/04/foto-do-perfil-facebook.png)](www.supleno.com "Site Supleno")www.supleno.com
 
 Enfim, hoje vivo a PNL e vivo de PNL, ajudando pessoas com método terapêutico baseado na PNL e em outras ferramentas de desenvolvimento, como hipnose e coach, venho treinando empresários, vendedores, autônomos, terapeutas, crianças e pessoas com problemas emocionais, a fazerem se melhor em si mesmo aprendendo como elas funcionam\! E você, agora que sabe o que não sabe…. como vai fazer para treinar isso?
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">MS</div>
+    <div class="author-info">
+      <h4>Maurício Supleno</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

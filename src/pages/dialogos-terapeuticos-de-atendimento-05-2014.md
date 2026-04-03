@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Diálogos Terapêuticos de Atendimento 05-2014"
 slug: "dialogos-terapeuticos-de-atendimento-05-2014"
 date: "2014-05-21"
@@ -7,6 +6,16 @@ author: "Maurício Supleno"
 description: "A Cliente Resistente ao processo de Hipnose, como resolver. Tive uma cliente nova a poucos dias atrás, que ao preencher a ficha chegou na recepção e falou para "
 canonicalUrl: "https://blog.supleno.com/dialogos-terapeuticos-de-atendimento-05-2014/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Diálogos Terapêuticos de Atendimento 05-2014</h1>
+  <div class="article-meta">
+    <span class="author">Maurício Supleno</span><span class="sep">·</span><span class="date">21 de maio de 2014</span>
+  </div>
+</div>
+
 
 _**A Cliente Resistente ao processo de Hipnose, como resolver.**_
 
@@ -63,3 +72,15 @@ E você pode enquanto isso fiscalizar pelo barulho de olhos fechados é até mai
 Mesmo que tente resistir não vai conseguir, porque eu não pretendo te hipnotizar, pois isso é uma coisa que nenhuma outra pessoa conseguiria a não ser que você permita, então você vai fazer isso Agora\! por que é insignificante ficar tentando uma coisa dessa só para resistir o que é inevitável, não vai ter diferença Ok? – Mauricio Ruiz
 
 Ela então fecha os olhos respira bem profundo ouvindo o barulho da máquina e um minuto depois ela está tão profundamente hipnotizada, quanto sempre quis\!
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">MS</div>
+    <div class="author-info">
+      <h4>Maurício Supleno</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

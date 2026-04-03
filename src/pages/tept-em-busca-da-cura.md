@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "TEPT - Em busca da cura"
 slug: "tept-em-busca-da-cura"
 date: "2014-01-06"
@@ -7,6 +6,16 @@ author: "Maurício Supleno"
 description: "Caros Psicólogos, Hipnólogos e Psicoterapeutas. O Comitê de Revisão das Diretrizes da OMS aprovou formalmente a recomendação do"
 canonicalUrl: "https://blog.supleno.com/tept-em-busca-da-cura/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">TEPT - Em busca da cura</h1>
+  <div class="article-meta">
+    <span class="author">Maurício Supleno</span><span class="sep">·</span><span class="date">6 de janeiro de 2014</span>
+  </div>
+</div>
+
 
 **Caros Psicólogos, Hipnólogos e Psicoterapeutas.**
 
@@ -28,3 +37,15 @@ Como seria dar oportunidade a você e a seu cliente de renovar os métodos que v
 Segue Link \(em inglês\) para sua apreciação e conhecimento.
 
 http://psychiatryonline.org/content.aspx?bookid=28&sectionid=1670530
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">MS</div>
+    <div class="author-info">
+      <h4>Maurício Supleno</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

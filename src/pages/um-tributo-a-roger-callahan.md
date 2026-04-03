@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "Um Tributo a Roger Callahan"
 slug: "um-tributo-a-roger-callahan"
 date: "2013-11-17"
@@ -7,6 +6,16 @@ author: "Maurício Supleno"
 description: "Roger faleceu em 4 de novembro de 2013 aos 88 anos. Ele foi o primeiro a trazer esses procedimentos “Tapping” para o público e fez isso por volta de 1980, Roger"
 canonicalUrl: "https://blog.supleno.com/um-tributo-a-roger-callahan/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">Um Tributo a Roger Callahan</h1>
+  <div class="article-meta">
+    <span class="author">Maurício Supleno</span><span class="sep">·</span><span class="date">17 de novembro de 2013</span>
+  </div>
+</div>
+
 
 ![Imagem inline 2](http://theamt.com/images/roger01.jpg)
 
@@ -41,3 +50,15 @@ Com Amor e Gratidão aos dois mestres – Mauricio Ruiz
 [![](http://mrsucesso.files.wordpress.com/2013/11/rogerjoanne21.jpg)](http://mrsucesso.files.wordpress.com/2013/11/rogerjoanne21.jpg)Roger e Sua Esposa Anne
 
 ![](http://bl-1.com/img/ATABM1c4ATdVMwZlAzE-b0231.gif)
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">MS</div>
+    <div class="author-info">
+      <h4>Maurício Supleno</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>

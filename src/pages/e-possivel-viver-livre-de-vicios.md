@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Layout.astro
 title: "É Possível viver livre de vícios?"
 slug: "e-possivel-viver-livre-de-vicios"
 date: "2011-02-13"
@@ -7,6 +6,16 @@ author: "Maurício Supleno"
 description: "Em todos estes anos que atendo terapia, diversas pessoas tem me feito uma pergunta em comum. “É possivel se livrar de uma vez por todas de um vício?” Nesta busc"
 canonicalUrl: "https://blog.supleno.com/e-possivel-viver-livre-de-vicios/"
 ---
+<div class="article-content">
+
+<div class="article-header">
+  <div class="article-category">Desenvolvimento Humano</div>
+  <h1 class="article-title">É Possível viver livre de vícios?</h1>
+  <div class="article-meta">
+    <span class="author">Maurício Supleno</span><span class="sep">·</span><span class="date">13 de fevereiro de 2011</span>
+  </div>
+</div>
+
 
 ![](http://mrsucesso.files.wordpress.com/2011/02/addiction-circle2.jpg)
 
@@ -59,3 +68,15 @@ Isto é assunto para outro artigo….
  
 
 Obrigado pela leitura\! outro dia nos encontramos.\!
+
+
+<div class="author-box">
+  <div class="author-card">
+    <div class="author-avatar">MS</div>
+    <div class="author-info">
+      <h4>Maurício Supleno</h4>
+      <p>Terapeuta e desenvolvedor humano. Especialista em PNL, Hipnose Ericksoniana e Coaching Sistmico.</p>
+    </div>
+  </div>
+</div>
+</div>
