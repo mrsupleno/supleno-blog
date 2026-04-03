@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+const allPosts = await Astro.glob('./*.md');
+
+const posts = allPosts
+  .map(p => ({
+    url: p.url,
+    title: p.frontmatter.title,
+    date: p.frontmatter.date,
+    author: p.frontmatter.author,
+    description: p.frontmatter.description,
+    slug: p.frontmatter.slug
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+function formatDate(dateStr) {
+  const [y, m, d] = dateStr.split('-');
+  const months = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 
+                  'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+  return `${parseInt(d)} de ${months[parseInt(m)-1]} de ${y}`;
+}
+---
+
+<Layout title="Blog Supleno">
+  <h1 class="blog-title">Blog Supleno</h1>
+  <p class="blog-subtitle">Artigos autorais sobre desenvolvimento humano, PNL, hipnose e terapia.</p>
+  
+  <div class="post-list">
+    {posts.map(post => (
+      <article class="post-item">
+        <span class="post-meta">{formatDate(post.date)} · {post.author}</span>
+        <h2 class="post-title">
+          <a href={post.url}>{post.title}</a>
+        </h2>
+        <p class="post-desc">{post.description}</p>
+        <a class="post-link" href={post.url}>Ler artigo →</a>
+      </article>
+    ))}
+  </div>
+  
+  {posts.length === 0 && (
+    <p>Nenhum post encontrado.</p>
+  )}
+</Layout>
+
+<style>
+  .blog-title {
+    font-family: var(--serif);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+  }
+  .blog-subtitle {
+    color: var(--text-light);
+    margin-bottom: 2.5rem;
+    font-size: 1.05rem;
+  }
+  .post-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .post-meta {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .post-title {
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    margin: 0.5rem 0;
+  }
+  .post-title a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  .post-title a:hover {
+    text-decoration: underline;
+  }
+  .post-desc {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+  .post-link {
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>
