@@ -1,3 +1,58 @@
 ---
-return Astro.redirect('/blog/', 301);
+import Layout from '../layouts/Layout.astro';
+const allPosts = await Astro.glob('./*.md');
+
+const posts = allPosts
+  .map(p => ({
+    url: p.url,
+    title: p.frontmatter.title,
+    date: p.frontmatter.date,
+    author: p.frontmatter.author,
+    description: p.frontmatter.description,
+    slug: p.frontmatter.slug
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+function formatDate(dateStr) {
+  const [y, m, d] = dateStr.split('-');
+  const months = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 
+                  'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+  return `${parseInt(d)} de ${months[parseInt(m)-1]} de ${y}`;
+}
 ---
+
+<Layout title="Blog Supleno" description="Artigos sobre desenvolvimento humano, PNL, hipnose e terapia">
+  <h1 style="margin-bottom: 0.5rem; font-family: var(--font-heading);">Blog Supleno</h1>
+  <p style="color: var(--color-text-light); margin-bottom: 2rem;">
+    Artigos autorais sobre desenvolvimento humano, PNL, hipnose e terapia.
+  </p>
+  
+  <div class="posts-list">
+    {posts.map(post => (
+      <article class="post-card" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #eee;">
+        <span style="font-size: 0.85rem; color: var(--color-text-light);">
+          {formatDate(post.date)} · {post.author}
+        </span>
+        <h2 style="margin: 0.5rem 0; font-family: var(--font-heading);">
+          <a href={post.url} style="color: var(--color-primary); text-decoration: none;">
+            {post.title}
+          </a>
+        </h2>
+        <p style="color: var(--color-text-light); font-size: 0.95rem;">
+          {post.description}
+        </p>
+        <a href={post.url} style="color: var(--color-primary); font-size: 0.9rem; text-decoration: none; font-weight: 600;">
+          Ler artigo →
+        </a>
+      </article>
+    ))}
+  </div>
+  
+  {posts.length === 0 && (
+    <p>Nenhum post encontrado.</p>
+  )}
+</Layout>
+
+<style>
+  .post-card h2 a:hover { text-decoration: underline !important; }
+</style>
