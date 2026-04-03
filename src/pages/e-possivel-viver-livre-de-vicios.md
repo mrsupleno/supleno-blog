@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "É Possível viver livre de vícios?"
 slug: "e-possivel-viver-livre-de-vicios"
 date: "2011-02-13"
 author: "Maurício Supleno"
 description: "Em todos estes anos que atendo terapia, diversas pessoas tem me feito uma pergunta em comum. “É possivel se livrar de uma vez por todas de um vício?” Nesta busc"
-canonicalUrl: "https://supleno.com/blog/e-possivel-viver-livre-de-vicios/"
+canonicalUrl: "https://blog.supleno.com/e-possivel-viver-livre-de-vicios/"
 ---
 
 ![](http://mrsucesso.files.wordpress.com/2011/02/addiction-circle2.jpg)

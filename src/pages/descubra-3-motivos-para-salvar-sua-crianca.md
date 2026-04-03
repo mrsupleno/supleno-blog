@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Descubra 3 motivos para salvar sua criança"
 slug: "descubra-3-motivos-para-salvar-sua-crianca"
 date: "2015-04-16"
 author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Desde muito pequenos aprendemos agir de acordo com nosso histórico de vida, nosso modelo de mundo, sem filtrarmos nada, e tais comportam"
-canonicalUrl: "https://supleno.com/blog/descubra-3-motivos-para-salvar-sua-crianca/"
+canonicalUrl: "https://blog.supleno.com/descubra-3-motivos-para-salvar-sua-crianca/"
 ---
 
 ###### _Por Sandra Nakkoud Ruiz  

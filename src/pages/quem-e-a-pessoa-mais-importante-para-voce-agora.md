@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Quem é a pessoa mais importante para você agora?"
 slug: "quem-e-a-pessoa-mais-importante-para-voce-agora"
 date: "2015-04-09"
 author: "Sandra Nakkoud"
 description: "Por Sandra Nakkoud Ruiz Sempre que ministro a introdução do curso Practitioner em PNL, faço uma reflexão entre os alunos perguntando: Quem é a pessoa mais impor"
-canonicalUrl: "https://supleno.com/blog/quem-e-a-pessoa-mais-importante-para-voce-agora/"
+canonicalUrl: "https://blog.supleno.com/quem-e-a-pessoa-mais-importante-para-voce-agora/"
 ---
 
 Por Sandra Nakkoud Ruiz

@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Um Tributo a Roger Callahan"
 slug: "um-tributo-a-roger-callahan"
 date: "2013-11-17"
 author: "Maurício Supleno"
 description: "Roger faleceu em 4 de novembro de 2013 aos 88 anos. Ele foi o primeiro a trazer esses procedimentos “Tapping” para o público e fez isso por volta de 1980, Roger"
-canonicalUrl: "https://supleno.com/blog/um-tributo-a-roger-callahan/"
+canonicalUrl: "https://blog.supleno.com/um-tributo-a-roger-callahan/"
 ---
 
 ![Imagem inline 2](http://theamt.com/images/roger01.jpg)

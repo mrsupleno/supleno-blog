@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Meu filho É BAGUNCEIRO?"
 slug: "meu-filho-e-bagunceiro"
 date: "2015-02-26"
 author: "Sandra Nakkoud"
 description: "Por: Sandra Nakkoud Ruiz Tenho visto em atendimentos terapêuticos, diversos casos de traumas causados por crenças instaladas ainda na fase da infância, e que ai"
-canonicalUrl: "https://supleno.com/blog/meu-filho-e-bagunceiro/"
+canonicalUrl: "https://blog.supleno.com/meu-filho-e-bagunceiro/"
 ---
 
 Por: Sandra Nakkoud Ruiz[![HYPERACTIVE KIDS](https://mrsucesso.files.wordpress.com/2015/02/hyperactive-kids.jpg?w=300)](https://mrsucesso.files.wordpress.com/2015/02/hyperactive-kids.jpg)

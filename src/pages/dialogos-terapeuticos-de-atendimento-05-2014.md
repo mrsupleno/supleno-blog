@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Diálogos Terapêuticos de Atendimento 05-2014"
 slug: "dialogos-terapeuticos-de-atendimento-05-2014"
 date: "2014-05-21"
 author: "Maurício Supleno"
 description: "A Cliente Resistente ao processo de Hipnose, como resolver. Tive uma cliente nova a poucos dias atrás, que ao preencher a ficha chegou na recepção e falou para "
-canonicalUrl: "https://supleno.com/blog/dialogos-terapeuticos-de-atendimento-05-2014/"
+canonicalUrl: "https://blog.supleno.com/dialogos-terapeuticos-de-atendimento-05-2014/"
 ---
 
 _**A Cliente Resistente ao processo de Hipnose, como resolver.**_

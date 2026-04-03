@@ -1,10 +1,11 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Vem cá... Você sabe realmente como você funciona?"
 slug: "vem-ca-voce-sabe-realmente-como-voce-funciona"
 date: "2015-04-06"
 author: "Maurício Supleno"
 description: "Comecei a falar somente aos 5 anos, meus pais preocupados, com o terceiro filho do casal que não falava ainda, pois os dois mais velhos já falavam no segundo an"
-canonicalUrl: "https://supleno.com/blog/vem-ca-voce-sabe-realmente-como-voce-funciona/"
+canonicalUrl: "https://blog.supleno.com/vem-ca-voce-sabe-realmente-como-voce-funciona/"
 ---
 
 Comecei a falar somente aos 5 anos, meus pais preocupados, com o terceiro filho do casal que não falava ainda, pois os dois mais velhos já falavam no segundo ano do nascimento, resolveram me levar ao médico, chegando no consultório, no dia da consulta após meus pais preencherem ficha, pagarem a consulta, meu foi ao carro buscar alguns exames, e minha mãe se distraia conversando com uma paciente, dei a volta, fui até a recepcionista que tinha em sua mesa um estranho objeto, e perguntei “Oi moça, como se chama isso?” indicando o apontador de lápis de mesa com bojo. Ela me respondeu ![apontador lapis bojo](http://supleno.com/wp-content/uploads/2015/04/apontador-lapis-bojo.jpg?w=1024)prontamente, e chamou minha mãe dizendo “Dona Ada, a fala deste menino funciona corretamente\!” minha mãe chorou de alegria, a recepcionista avisou o médico que me atendeu ali na recepção mesmo e dispensou da consulta regular. No caminho de casa, eu já falando normalmente com meus pais quando eles finalmente perguntaram o porque de eu não falar, e eu disse que sim eu já falava, mas não falava com adultos, somente com crianças. Quando tinha adultos por perto eu só olhava\!
