@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://blog.supleno.com',
-  base: '/',
+  site: 'https://supleno.com',
+  base: '/blog',
   output: 'static'
 });
